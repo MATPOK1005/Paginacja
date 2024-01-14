@@ -1,0 +1,50 @@
+body {
+    background-color: #DAD7CD;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+textarea {
+    margin: 5px;
+}
+
+#outputDiv {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.output {
+    background-color: #A3B18A;
+    border: #3A5A40 solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: larger;
+    color: #3A5A40;
+}
+
+textarea, button {
+    background-color: #A3B18A;
+    border: #3A5A40 solid 1px;
+    border-radius: 5px;
+    color: #3A5A40;
+    margin: 2px;
+}
+
+button:disabled {
+    background-color: #DAD7CD;
+    border: #A3B18A solid 1px;
+    color: #A3B18A;
+}
+
+span {
+    background-color: #A3B18A;
+    border: #3A5A40 solid 1px;
+    border-radius: 5px;
+    color: #3A5A40;
+    margin: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
